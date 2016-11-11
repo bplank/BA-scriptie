@@ -34,7 +34,7 @@ def load_sentiment_sentences_and_labels():
     ## make sure we have a label for every data instance
     assert(len(sentences)==len(labels))
     data = list(zip(sentences,labels))
-
+ 
     ## return the data (instances + labels)
     return data
 
